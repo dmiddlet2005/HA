@@ -32,9 +32,9 @@ SSL_KEY = None
 # Set the destination where the HASS API is reachable
 # HASS_API = "http://192.168.2.16:8123/api/"
 # If a password is required to access the API, set it in the form of "password"
-# HASS_API_PASSWORD = "Gonz0113"
+HASS_API_PASSWORD = !secret http_password
 # To enable authentication, set the credentials in the form of "username:password"
-CREDENTIALS = "dmhomeautomation:Gonz0113"
+CREDENTIALS = 
 # Limit access to the configurator by adding allowed IP addresses / networks to the list,
 # e.g ALLOWED_NETWORKS = ["192.168.0.0/24", "172.16.47.23"]
 ALLOWED_NETWORKS = ["192.168.0.0/24"]
